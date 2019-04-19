@@ -1,17 +1,8 @@
-# MoleYesNo
+# ISIC Archive Data
 
-## Install dependencies
+The raw JPGs and metadata from [isic-archive.com](https://www.isic-archive.com).
 
-`yarn install`
+Note: the image data can be found in the `data` directory, but you can also choose to download the latest data by:
 
-## Run server
-
-`yarn start`
-
-## Run tests
-
-`yarn test`
-
-## Run tests interactively
-
-`yarn test:watch`
+  - `yarn install`
+  - `yarn start`
