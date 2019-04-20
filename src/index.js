@@ -1,3 +1,3 @@
 import { downloadImages } from './isic';
 
-downloadImages();
+downloadImages(0);

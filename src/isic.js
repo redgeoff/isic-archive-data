@@ -78,6 +78,11 @@ export const downloadImages = async (offset = 0) => {
   ).then(res => res.json());
 
   if (images) {
+    if (images.length == 0) {
+      console.log('done downloading all images');
+      return;
+    }
+
     const promises = images.map(image => downloadImageAndMetadata(image._id));
 
     // Wait for batch so that we don't run out of mem
