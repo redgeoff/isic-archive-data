@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "fs-extra": "^7.0.1",
     "yup": "^0.26.10"
   },
